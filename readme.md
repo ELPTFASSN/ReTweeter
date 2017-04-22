@@ -59,11 +59,12 @@ You must set the following in /config/config.json
 - twitter/lastTweetId
 
 ### Export
-Set logging/saveJsonToFile to true to enable this feature.
+Set `logging/saveJsonToFile` to true to enable this feature.
 If enabled, each tweet retweeted will also be dumped out in json format to a file in subfolder *export*
 For compatibility with MongoDB, a unique key field `_id` is added, based on the tweet's actual id
 
 ### Scheduling
 Create a crontab to run main.py at regular intervals.
 For example - to run every 15 minutes
+
 `*/15 * * * * sudo python /path/main.py`
