@@ -1,0 +1,1 @@
+{"logging": {"recipient": "your twitter account", "newFollowerMessage": "Your message here", "saveJsonToFile": false}, "search": {"query": "your search", "maxHashTags": 5}, "twitter": {"consumerKey": "XXXXX", "consumerSecret": "XXXXX", "accessToken": "XXXXX", "accessTokenSecret": "XXXXX", "lastTweetId": "0"}}
